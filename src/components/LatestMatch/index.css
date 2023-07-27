@@ -1,0 +1,77 @@
+.match-details-container {
+  background-color: #0f172a;
+  background-size: cover;
+  width: 100%;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'bree serif';
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+@media screen and (min-width: 575px) {
+  .match-details-container {
+    flex-direction: row;
+  }
+}
+.date-venue-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 575px) {
+  .date-venue-container {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 574px) {
+  .innings-details-container {
+    width: 40%;
+  }
+}
+h1 {
+  font-weight: 400;
+}
+
+.match-info {
+  width: 60%;
+}
+.competing-team {
+  font-size: 18px;
+  font-weight: 400;
+}
+.com-team-logo-cont {
+  width: 40%;
+  padding: 15px;
+}
+.competing-team-logo {
+  width: 100%;
+  height: 120px;
+}
+@media screen and (min-width: 575px) {
+  .competing-team-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+hr {
+  width: 100%;
+  border: 1px solid #475569;
+  padding: 0;
+}
+@media screen and (min-width: 575px) {
+  hr {
+    display: none;
+  }
+}
+.text {
+  font-size: 16px;
+}
+@media screen and (min-width: 575px) {
+  .text {
+    text-align: right;
+  }
+}
+h3 {
+  font-weight: 400;
+}

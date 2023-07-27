@@ -1,0 +1,34 @@
+.match-card-container {
+  background-color: #0f172a;
+  padding: 20px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-family: 'bree serif';
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 600px) {
+  .match-card-container {
+    width: 31%;
+  }
+}
+.team-logo {
+  width: 50%;
+  height: 120px;
+}
+.result {
+  font-size: 12px;
+}
+p {
+  font-size: 20px;
+}
+.won {
+  color: #18ed66;
+}
+.lost {
+  color: #e31a1a;
+}
